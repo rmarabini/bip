@@ -1,0 +1,34 @@
+Printing headers...
+Input: average.mrc
+
+--- File information ---
+Filename       : average.mrc
+Endianess      : Little
+Reversed       : False
+Data type      : Floating point (4-byte)
+Data offset    : 1024
+--- Image information ---
+Image type     : Real-space image
+Dimensions     : 1 x 1 x 128 x 128  ((N)Objects x (Z)Slices x (Y)Rows x (X)Columns)
+Sampling rate  : 
+                 X-rate (Angstrom/pixel) = 1
+                 Y-rate (Angstrom/pixel) = 1
+                 Z-rate (Angstrom/pixel) = 1
+--- Geometry ---
+Euler angles   : 
+                 Phi   (rotation around Z axis)                  = 0
+                 Theta (tilt, second rotation around new Y axis) = 0
+                 Psi   (third rotation around new Z axis)        = 0
+Origin Offsets : 
+                 Xoff  (origin offset in X-direction) = 0
+                 Yoff  (origin offset in Y-direction) = 0
+                 Zoff  (origin offset in Z-direction) = 0
+Scale          : 1
+Weight         : 1
+Flip           : 0
+
+** Running command: [32mxmipp_image_header "average.mrc"[0m
+
+Scipion v1.0.0 (2016-02-20) Augusto
+
+>>>>> python  /usr/local/ScipionStable/scipion/pyworkflow/apps/pw_program.py "xmipp_image_header" "average.mrc"

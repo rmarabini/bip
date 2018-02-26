@@ -1,0 +1,54 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+\usepackage{graphicx}
+
+
+\usepackage[utf8]{inputenc}
+
+\title{Averaging by quasioptical filtering}
+\author{Roberto Marabini}
+\date{}
+
+\pdfinfo{%
+  /Title    ()
+  /Author   ()
+  /Creator  ()
+  /Producer ()
+  /Subject  ()
+  /Keywords ()
+}
+
+\begin{document}
+\maketitle
+
+\section{Theoretical Background}
+
+Averaging of images of identical specimens (motive) for the purpose of noise elimination 
+has a long history in many research fields. According to theory, averaging
+over a correct set of images is equivalent to the result of Fourier filtration
+of a regular 2D montage of that set (using appropriate delta-functions as a mask)
+to pass only the Fourier components associated with the signal. (Aebi 1973)
+
+
+
+\section {Calculation}
+
+A noisy 2D crystals should be quasi optically filtered in order to restore 
+a noiseless motive.
+
+The method requires:
+\begin{itemize}
+ \item Fourier transform the original image
+ \item Mask the Fourier transform 
+ \item Integrate the density in the masked region
+ \item Perform an inverse Fourier transform
+
+\end{itemize}
+
+\section {Objetive}
+Using Matlab implemented a quasi optical filtration of a 2D crystal
+
+\section {Bibliography}
+R Henderson, JM Baldwin, KH Downing, J Lepault, F Zemlin. Structure of purple membrane from halobacterium halobium: recording, measurement and evaluation of electron micrographs at 3.5 Å resolution. Ultramicroscopy 19:147-178, 1986.
+
+\end{document}

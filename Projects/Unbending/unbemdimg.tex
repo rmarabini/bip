@@ -1,0 +1,67 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+\usepackage{graphicx}
+
+
+\usepackage[utf8]{inputenc}
+
+\title{Crystal Unbending}
+\author{Roberto Marabini}
+\date{}
+
+\pdfinfo{%
+  /Title    ()
+  /Author   ()
+  /Creator  ()
+  /Producer ()
+  /Subject  ()
+  /Keywords ()
+}
+
+\begin{document}
+\maketitle
+
+\section{Theoretical Background}
+
+Biological crystals are seldom perfect, they present distortions
+and stretching, are limited in extent and disordered.
+These imperfections degrade the Fourier Transform (FT) and reduce
+high resolution information. The degradation of the FT
+produces a broadening of the peaks at the reciprocal lattice
+(i.e., they are no longer a delta function but a Gaussian)
+plus an attenuation of the high frequency terms. As filtering
+(in Fourier space) is equivalent to averaging all the unit
+cells in the crystal (in real space), this degradation makes
+the average unit cell blurred. In other words, crystal imperfections
+translate into small misalignments of the different
+unit cells and the final average then turns out blurred.
+Lattice unbending was developed by Henderson et al.
+(1986), to correct these distortions and recover high resolution
+information. 
+
+\section {Calculation}
+
+2D crystals should be corrected, termed unbending, by
+identifying the displacement of the unit cells compared with the
+ideal lattice by cross-correlation Fourier analysis by using a
+reference area from the center of the crystal itself.
+
+The method requires:
+\begin{itemize}
+ \item Create a reference image (center of the crystal itself)
+ \item Fourier transform both the crystal and the reference
+ \item Croscorrelate both images
+ \item Calcualte the the relative translations of the unit cells compared with a reference image. 
+ \item Create (by interpolation) a perfect crystal from the original image
+\end{itemize}
+
+\section {Objetive}
+Using Matlab implemented 2D crystal Unbending
+
+\section {Bibliography}
+Henderson, R., Baldwin, J.M., Downing, K.H., Lepault, J., Zemlin, F.,
+1986. Structure of purple membrane from Halobacterium halobium:
+recording, measurement and evaluation of electron micrographs at
+3.5  \AA resolution. Ultramicroscopy 19, 147–178.
+
+\end{document}

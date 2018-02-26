@@ -1,0 +1,29 @@
+Printing headers...
+Input: relion_it021_half1_class001.mrc:mrc
+
+--- File information ---
+Filename       : relion_it021_half1_class001.mrc:mrc
+Endianess      : Little
+Reversed       : False
+Data type      : Floating point (4-byte)
+Data offset    : 1024
+--- Image information ---
+Image type     : Real-space image
+Dimensions     : 1 x 100 x 100 x 100  ((N)Objects x (Z)Slices x (Y)Rows x (X)Columns)
+Sampling rate  : 
+                 X-rate (Angstrom/pixel) = 3.5
+                 Y-rate (Angstrom/pixel) = 3.5
+                 Z-rate (Angstrom/pixel) = 3.5
+--- Geometry ---
+Euler angles   : 
+                 Phi   (rotation around Z axis)                  = 0
+                 Theta (tilt, second rotation around new Y axis) = 0
+                 Psi   (third rotation around new Z axis)        = 0
+Origin Offsets : 
+                 Xoff  (origin offset in X-direction) = 0
+                 Yoff  (origin offset in Y-direction) = 0
+                 Zoff  (origin offset in Z-direction) = 0
+Scale          : 1
+Weight         : 1
+Flip           : 0
+

@@ -1,0 +1,57 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+\usepackage{graphicx}
+
+
+\usepackage[utf8]{inputenc}
+
+\title{Crystal Unbending}
+\author{Roberto Marabini}
+\date{}
+
+\pdfinfo{%
+  /Title    ()
+  /Author   ()
+  /Creator  ()
+  /Producer ()
+  /Subject  ()
+  /Keywords ()
+}
+
+\begin{document}
+\maketitle
+
+\section{Theoretical Background}
+
+Biological crystals are seldom perfect, they present distortions
+and stretching, are limited in extent and disordered.
+These imperfections degrade the Fourier Transform (FT) and reduce
+high resolution information. The degradation of the FT
+produces a broadening of the peaks at the reciprocal lattice
+(i.e., they are no longer a delta function but a Gaussian)
+plus an attenuation of the high frequency terms. As filtering
+(in Fourier space) is equivalent to averaging all the unit
+cells in the crystal (in real space), this degradation makes
+the average unit cell blurred. In other words, crystal imperfections
+translate into small misalignments of the different
+unit cells and the final average then turns out blurred.
+Lattice unbending was developed by Henderson et al.
+(1986), to correct these distortions and recover high resolution
+information. 
+
+\section {Calculation}
+
+\includegraphics{fsc.png}
+
+\noindent where $F_1$ is Fourier transform for  volume 1, $F_2^{\ast}$ is the complex conjugate of the Fourier transform for volume 2, and $r_i$ is the individual voxel element at radius r. In this form, the FSC takes two three-dimensional data sets and converts them into a one-dimensional array.
+
+\section {Objetive}
+Using Matlab implemented the FSC
+
+\section {Bibliography}
+Henderson, R., Baldwin, J.M., Downing, K.H., Lepault, J., Zemlin, F.,
+1986. Structure of purple membrane from Halobacterium halobium:
+recording, measurement and evaluation of electron micrographs at
+3.5 A˚ resolution. Ultramicroscopy 19, 147–178.
+
+\end{document}

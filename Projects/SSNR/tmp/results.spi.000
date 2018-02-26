@@ -1,0 +1,270 @@
+  \__`O O'__/        SPIDER -- COPYRIGHT
+  ,__xXXXx___        HEALTH RESEARCH INC., ALBANY, NY.
+   __xXXXx__
+  /  /xxx\  \        VERSION:  UNIX  21.13 ISSUED: 12/16/2013
+    /     \          DATE:     03-MAY-2016    AT  18:48:27
+
+
+  PROJECT EXTENSION: spi   DATA EXTENSION: spi
+
+   RESULTS FILE FLUSHED:  03-MAY-2016 at 18:48:27
+
+ *** ERROR: STACK INDICATOR (@) MISSING
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: @
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: DATA@                                                                                                                        
+
+  COMPLETED  03-MAY-2016 at 18:48:59
+
+  \__`O O'__/        SPIDER -- COPYRIGHT
+  ,__xXXXx___        HEALTH RESEARCH INC., ALBANY, NY.
+   __xXXXx__
+  /  /xxx\  \        VERSION:  UNIX  21.13 ISSUED: 12/16/2013
+    /     \          DATE:     03-MAY-2016    AT  19:37:11
+
+
+  PROJECT EXTENSION: spi   DATA EXTENSION: spi
+
+   RESULTS FILE FLUSHED:  03-MAY-2016 at 19:37:11
+
+ *** ERROR -- I/O ERROR ON FILE HEADER:      253
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: >
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: >>>>> python  /home/roberto/Scipion/scipion/pyworkflow/apps/pw_program.py "xmipp_image_convert" "-i" "data.mrc" "--oroot" "kk
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: :
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: ** Running command: xmipp_image_convert "-i" "data.mrc" "--oroot" "kk"                                                       
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: :
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: INPUT FILE: DATA.MRC                                                                                                         
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: :
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: OUTPUT ROOT: KK                                                                                                              
+
+ *** ERROR: INVALID ARITHMETIC EXPRESSION                                                 # 43 SUBROUTINE: CALC - DIVISION BY ZERO ***
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: 0/   0 sec. ............................................................                                                     
+
+ *** ERROR UNDEFINED REGISTER VARIABLE: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp]
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp] (master)>ls                                           
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: AVERAGE.MRC   KK000018.SPI  KK000042.SPI  KK000066.SPI  KK000090.SPI  KK000114.SPI  KK000138.SPI  KK000162.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: AVERAGE.TIF   KK000019.SPI  KK000043.SPI  KK000067.SPI  KK000091.SPI  KK000115.SPI  KK000139.SPI  KK000163.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: AVERAGE.TXT   KK000020.SPI  KK000044.SPI  KK000068.SPI  KK000092.SPI  KK000116.SPI  KK000140.SPI  KK000164.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: DATA.MRC      KK000021.SPI  KK000045.SPI  KK000069.SPI  KK000093.SPI  KK000117.SPI  KK000141.SPI  KK000165.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: DATA.MRC.FRC  KK000022.SPI  KK000046.SPI  KK000070.SPI  KK000094.SPI  KK000118.SPI  KK000142.SPI  KK000166.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: DATA.SPI      KK000023.SPI  KK000047.SPI  KK000071.SPI  KK000095.SPI  KK000119.SPI  KK000143.SPI  KK000167.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: DATA.TXT      KK000024.SPI  KK000048.SPI  KK000072.SPI  KK000096.SPI  KK000120.SPI  KK000144.SPI  KK000168.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000001.SPI  KK000025.SPI  KK000049.SPI  KK000073.SPI  KK000097.SPI  KK000121.SPI  KK000145.SPI  KK000169.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000002.SPI  KK000026.SPI  KK000050.SPI  KK000074.SPI  KK000098.SPI  KK000122.SPI  KK000146.SPI  KK000170.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000003.SPI  KK000027.SPI  KK000051.SPI  KK000075.SPI  KK000099.SPI  KK000123.SPI  KK000147.SPI  KK000171.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000004.SPI  KK000028.SPI  KK000052.SPI  KK000076.SPI  KK000100.SPI  KK000124.SPI  KK000148.SPI  KK000172.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000005.SPI  KK000029.SPI  KK000053.SPI  KK000077.SPI  KK000101.SPI  KK000125.SPI  KK000149.SPI  KK000173.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000006.SPI  KK000030.SPI  KK000054.SPI  KK000078.SPI  KK000102.SPI  KK000126.SPI  KK000150.SPI  KK000174.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000007.SPI  KK000031.SPI  KK000055.SPI  KK000079.SPI  KK000103.SPI  KK000127.SPI  KK000151.SPI  KK000175.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000008.SPI  KK000032.SPI  KK000056.SPI  KK000080.SPI  KK000104.SPI  KK000128.SPI  KK000152.SPI  KK000176.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000009.SPI  KK000033.SPI  KK000057.SPI  KK000081.SPI  KK000105.SPI  KK000129.SPI  KK000153.SPI  KK000177.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000010.SPI  KK000034.SPI  KK000058.SPI  KK000082.SPI  KK000106.SPI  KK000130.SPI  KK000154.SPI  KK000178.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000011.SPI  KK000035.SPI  KK000059.SPI  KK000083.SPI  KK000107.SPI  KK000131.SPI  KK000155.SPI  KK000179.SPI               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000012.SPI  KK000036.SPI  KK000060.SPI  KK000084.SPI  KK000108.SPI  KK000132.SPI  KK000156.SPI  KK_SPI.XMD                 
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000013.SPI  KK000037.SPI  KK000061.SPI  KK000085.SPI  KK000109.SPI  KK000133.SPI  KK000157.SPI  LOG.SPI                    
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION:
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: KK000014.SPI  KK000038.SPI  KK000062.SPI  KK000086.SPI  KK000110.SPI  KK000134.SPI  KK000158.SPI  RESULTS.SPI.000            
+
+ *** ERROR UNDEFINED REGISTER VARIABLE: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp]
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp] (master)>vi kk.spi                                    
+
+ *** ERROR UNDEFINED REGISTER VARIABLE: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp]
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp] (master)>spider                                       
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: CNF SPIDER                                                                                                                   
+
+ *** ERROR UNDEFINED REGISTER VARIABLE: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp]
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp] (master)>scipion run spider                           
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: >
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: >>>>> "spider"                                                                                                               
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: :
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: SH: SPIDER: COMMAND NOT FOUND                                                                                                
+
+ *** ERROR UNDEFINED REGISTER VARIABLE: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp]
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp] (master)>~/Scipion/scipion/software/em/               
+
+ *** ERROR: INVALID ARITHMETIC EXPRESSION                                                 # 43 SUBROUTINE: POLISH ***
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: BSOFT-1.8.8/                 CTFFIND4/                    RELION-1.4_FLOAT/            SUMMOVIE_1.0.2/                       
+
+ *** ERROR: INVALID ARITHMETIC EXPRESSION                                                 # 43 SUBROUTINE: POLISH ***
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: CHIMERA/                     CTFFIND_V4.0.15/             RESMAP-1.1.5-SCIPION/        UNBLUR_1.0_150529/                    
+
+ *** ERROR: INVALID ARITHMETIC EXPRESSION                                                 # 43 SUBROUTINE: POLISH ***
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: CHIMERA-1.10.1/              EMAN2.11/                    SPIDER/                      XMIPP/                                
+
+ *** ERROR: INVALID ARITHMETIC EXPRESSION                                                 # 43 SUBROUTINE: POLISH ***
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: CHIMERA-1.10.1-LINUX_[_86]_64/ EMAN2.11.LINU[_64]/            SPIDER-WEB-21.13/                                              
+
+ *** ERROR: INVALID ARITHMETIC EXPRESSION                                                 # 43 SUBROUTINE: POLISH ***
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: CTFFIND/                     RELION-1.4/                  SUMMOVIE/                                                          
+
+ *** ERROR UNDEFINED REGISTER VARIABLE: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp]
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp] (master)>~/Scipion/scipion/software/em/spider/        
+
+ *** ERROR: INVALID ARITHMETIC EXPRESSION                                                 # 43 SUBROUTINE: POLISH ***
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: SPIDER/ WEB/                                                                                                                 
+
+ *** ERROR UNDEFINED REGISTER VARIABLE: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp]
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp] (master)>~/Scipion/scipion/software/em/spider/spider/ 
+
+ *** ERROR: INVALID ARITHMETIC EXPRESSION                                                 # 43 SUBROUTINE: POLISH ***
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: BIN/    FFTW/   MAN/    PROC/   PUBSUB/ SPIRE/  SRC/                                                                         
+
+ *** ERROR UNDEFINED REGISTER VARIABLE: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp]
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: [roberto@linux-tizc~/Docencia/Doctorado/BIP/2015-16/Projects/SSNR/tmp] (master)>~/Scipion/scipion/software/em/spider/spider/b
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: '
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: \__`O O'__/        SPIDER -- COPYRIGHT                                                                                       
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: ,
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: ,__xXXXx___        HEALTH RESEARCH INC., ALBANY, NY.                                                                         
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: __xXXXx__                                                                                                                    
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: :
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: /  /xxx\  \        VERSION:  UNIX  21.13 ISSUED: 12/16/2013                                                                  
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: :
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: /     \          DATE:     03-MAY-2016    AT  19:37:11                                                                       
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: ,
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: FRANK J, RADERMACHER M, PENCZEK P, ZHU J, LI Y, LADJADJ M,  LEITH A.                                                         
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: :
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: SPIDER AND WEB: PROCESSING AND VISUALIZATION OF IMAGES IN 3D ELECTRON                                                        
+
+ *** ERROR: UNEXPECTED CHARACTER IN EXPRESSION: :
+
+ *** ERROR: UNDEFINED OPERATION OR EXPRESSION: *** UNDEFINED ENVIRONMENTAL VARIABLE:SPBIN_DIR                                                                               
+
+ *** ERROR: RAN OUT OF INPUT
+
+ *** ERROR: OPENFIL; FILE NOT FOUND: EN.spi                                                                                                                                 
+
+ *** ERROR: RAN OUT OF INPUT
+
+  COMPLETED  03-MAY-2016 at 19:39:14
+
+  \__`O O'__/        SPIDER -- COPYRIGHT
+  ,__xXXXx___        HEALTH RESEARCH INC., ALBANY, NY.
+   __xXXXx__
+  /  /xxx\  \        VERSION:  UNIX  21.13 ISSUED: 12/16/2013
+    /     \          DATE:     03-MAY-2016    AT  19:39:16
+
+
+  PROJECT EXTENSION: spi   DATA EXTENSION: spi
+
+   RESULTS FILE FLUSHED:  03-MAY-2016 at 19:39:16
+
+  COMPLETED  03-MAY-2016 at 19:39:51
+
+  \__`O O'__/        SPIDER -- COPYRIGHT
+  ,__xXXXx___        HEALTH RESEARCH INC., ALBANY, NY.
+   __xXXXx__
+  /  /xxx\  \        VERSION:  UNIX  21.13 ISSUED: 12/16/2013
+    /     \          DATE:     03-MAY-2016    AT  19:40:18
+
+
+  PROJECT EXTENSION: spi   DATA EXTENSION: spi
+
+   RESULTS FILE FLUSHED:  03-MAY-2016 at 19:40:18
+
+  COMPLETED  03-MAY-2016 at 19:40:40
+

@@ -1,0 +1,22 @@
+Printing headers...
+Input: data.mrc
+
+--- File information ---
+Filename       : data.mrc
+Endianess      : Little
+Reversed       : False
+Data type      : Floating point (4-byte)
+Data offset    : 1024
+--- Image information ---
+Image type     : Real-space image
+Dimensions     : 179 x 1 x 128 x 128  ((N)Objects x (Z)Slices x (Y)Rows x (X)Columns)
+Sampling rate  : 
+                 X-rate (Angstrom/pixel) = 1
+                 Y-rate (Angstrom/pixel) = 1
+                 Z-rate (Angstrom/pixel) = 1
+
+** Running command: [32mxmipp_image_header "data.mrc"[0m
+
+Scipion v1.0.0 (2016-02-20) Augusto
+
+>>>>> python  /usr/local/ScipionStable/scipion/pyworkflow/apps/pw_program.py "xmipp_image_header" "data.mrc"

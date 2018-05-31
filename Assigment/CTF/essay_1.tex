@@ -1,0 +1,180 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Simple Sectioned Essay Template
+% LaTeX Template
+% i
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Note:
+% The \lipsum[#] commands throughout this template generate dummy text
+% to fill the template out. These commands should all be removed when 
+% writing essay content.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article} % Default font size is 12pt, it can be changed here
+\usepackage[english]{babel}
+\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{caption}
+\usepackage[dvips]{graphicx}
+\usepackage{geometry} % Required to change the page size to A4
+%\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
+\usepackage{framed}
+\usepackage{graphicx} % Required for including pictures
+\usepackage{amssymb}
+\usepackage{url}
+
+\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+\usepackage{wrapfig} % Allows in-line images such as the example fish picture
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO]{{Assignment - 2}} 
+\fancyhead[LO]{Biomedical Image Processing}
+%\fancyhead[RO]{{\leftmark}} 
+\fancyfoot[LE,RO]{{ \thepage }}
+
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\definecolor{grey}{rgb}{0.9,0.9,0.9}
+
+\linespread{1.2} % Line spacing
+
+%\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
+
+\graphicspath{{./Pictures/}} % Specifies the directory where pictures are stored
+\newcounter{ejercicioNo}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+
+\textsc{\LARGE Universidad Aut\'{o}noma de Madrid}\\[1.5cm] % Name of your university/college
+%\textsc{\Large Proyecto de Sistemas Informaticos}\\[0.5cm] % Major heading such as course name
+%\textsc{\large Departamento de Informatica}\\[0.5cm] % Minor heading such as course title
+\textsc{\Large Computer Science Department}\\[0.5cm] % Minor heading such as course title
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Biomedical Image Processing\\[0.5cm] Assignment - 2}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushleft}
+% \large
+%\emph{Author:}\\
+%Roberto  \textsc{Marabini Ruiz} % Your name
+%\end{flushleft}
+%\end{minipage}
+
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushright} \large
+%\emph{Supervisor:} \\
+%Dr. James \textsc{Smith} % Supervisor's Name
+%\end{flushright}
+%\end{minipage}\\[4cm]
+
+%{\large \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+
+\vfill % Fill the rest of the page with whitespace
+%\begin{minipage}{0.4\textwidth}
+\begin{flushright}
+ \large
+%\emph{Author:}\\
+Roberto  \textsc{Marabini Ruiz} % Your name
+\end{flushright}
+%\end{minipage}
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Include a table of contents
+
+\newpage % Begins the essay on a new page instead of on the same page as the table of contents 
+
+%----------------------------------------------------------------------------------------
+%	OBJETIVOS
+%----------------------------------------------------------------------------------------
+
+\section {Goal}
+
+To better understand the contrast transfer function in electron microscopy.
+
+
+%------------------------------------------------
+\section{Introduction} % Sub-section
+
+The contrast transfer function describes how an object examined in a transmission electron microscope is imaged, essentially providing a description of distortions due to imperfect image formation by the microscope. By considering the recorded image as a CTF-degraded true object, describing the CTF allows the true object to be reverse-engineered. 
+
+ In the following we introduce a first order approximation used to describe the CTF.
+
+
+\begin{eqnarray*}
+    CTF(\mathbf{R})& = &w \cos(\gamma(\mathbf{R})) - \sqrt{1-w^2}\sin(\gamma(\mathbf{R}))\\
+   \gamma (\mathbf{R})& = & 180\lambda(-\Delta Z \|\mathbf{R}\| ^2 + \frac{Cs10^6\|\mathbf{R}\|^4\lambda^2}{2})\ in\ degrees
+\end{eqnarray*}
+where $\mathbf{R}$ is the spatial frequency, $\Delta Z$ denotes defocus in nm.,  $w$ is the percentage of amplitude contrast and $Cs$ is the spherical aberration in mm. Finally, the factor $10^6$ converts $Cs$ from mm to nm. and $\gamma (\mathbf{R})$ is termed in the specialized literature as wave aberration function.\\
+
+\begin{minipage}{\linewidth}
+\begin{framed}
+\addtocounter{ejercicioNo}{1}
+Questions \arabic{ejercicioNo}:
+\begin{itemize}
+   \item Using matlab plot the CTF using the following two sets of values:
+        \begin{itemize}
+            \item Cs=0.6 mm. accelerating voltage 300keV ($\lambda$=1.97 pm),  $\Delta Z = 39.7$ nm.
+            \item Cs=0.6 mm. accelerating voltage 300keV ($\lambda$=1.97 pm),  $\Delta Z = 90$ nm.
+        \end{itemize}
+   \item For which frequencies the contrast is inverted?
+\end{itemize}
+\end{framed}
+\end{minipage}
+
+\begin{minipage}{\linewidth}
+\begin{framed}
+\addtocounter{ejercicioNo}{1}
+Questions \arabic{ejercicioNo}:
+\begin{itemize}
+   \item Simulate the aberrations introduced by the microscope by convolving the Einstein image
+   with the above CTF.
+   \item restore partially the image by multiplying (in Fourier space) it by the sign of the CTF
+   \item restore partially the image by multiplying (in Fourier space) it by the $\frac{1}{CTF +\epsilon}$   where $\epsilon$ is a small number that avoid division by zero
+\end{itemize}
+\end{framed}
+\end{minipage}
+
+\begin{minipage}{\linewidth}
+\begin{framed}
+\addtocounter{ejercicioNo}{1}
+Questions \arabic{ejercicioNo}:
+\begin{itemize}
+   \item Create a uniform noise image and convolve it with the CTF. Plot the magnitude 
+   of the Fourier transform, the rings you see are the so-called Thon rings. (Fourier 
+   transform the image, multiply it by the CTF, plot the
+   Fourier transform magnitude)
+   \item What happen if you increase $\Delta Z$? Does the distance between rings
+   increase or decrease with a defocus increment?
+\end{itemize}
+\end{framed}
+\end{minipage}
+
+
+\end{document}
